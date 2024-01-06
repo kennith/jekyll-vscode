@@ -1,6 +1,7 @@
 {
-  "name": "jekyll",
-  "displayName": "jekyll",
+  "icon": "assets/jekyll-vscode.png",
+  "name": "jekyll-vscode",
+  "displayName": "Jekyll VSCode",
   "description": "Streamline the process of managing Jekyll posts",
   "version": "0.0.1",
   "engines": {
