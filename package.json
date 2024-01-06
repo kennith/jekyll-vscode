@@ -3,7 +3,7 @@
   "name": "jekyll-vscode",
   "displayName": "Jekyll VSCode",
   "description": "Streamline the process of managing Jekyll posts",
-  "version": "0.1.0",
+  "version": "0.2.0",
   "engines": {
     "vscode": "^1.85.0"
   },
