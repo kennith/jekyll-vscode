@@ -22,7 +22,7 @@ export function activate(context: vscode.ExtensionContext) {
 
 		if (postTitle && categories) {
 
-			let filename = filePrefix() + '-' + postTitle.replaceAll(' ', '-') + '.markdown';
+			let filename = filePrefix() + '-' + postTitle.replaceAll(' ', '-').toLowerCase() + '.markdown';
 			let templatefile = (await vscode.workspace.fs.readFile(vscode.Uri.file(context.extensionPath + '/templates/post.template'))).toString();
 			let formattedTemplatefile = templatefile.replaceAll('{{post-title}}', startCase(postTitle))
 				.replaceAll('{{post-categories}}', categories);
